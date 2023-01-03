@@ -1,0 +1,26 @@
+body,
+html {
+	background-color: lightblue;
+	background-image: url(twicelogo.png);
+	background-repeat: repeat; 
+	font-family: fantasy;
+}
+.card {
+	width: 500px
+	height: 300px;
+	background: repeating-linear-gradient(white, white 25px, #9198e5 26px, #9198e5 27px);
+	border: 2px 2px 2px 2px black;
+	float: right;
+}
+.card-text {
+	position: relative;
+	top: 30px;
+	font-size: 18px;
+	margin: 0 20px;
+	line-height: 27px;
+}
+header {
+	height:36px;
+	background: linear-gradient(white, white 33px,pink 35px, pink 36px);
+
+}

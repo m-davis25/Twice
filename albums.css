@@ -1,0 +1,27 @@
+body,
+html {
+	background-color: lightblue;
+	background-image: url(twicelogo.png);
+	background-repeat: repeat; 
+	font-family: fantasy;
+}
+header {
+	width: 20px 20px;
+	border: 5px 5px solid;
+	
+}
+.img {
+	width: 400px;
+	height: 500px;
+}
+
+h1 {
+	text-align: center;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+

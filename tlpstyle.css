@@ -1,0 +1,49 @@
+body,
+html {
+	background-color: lightblue;
+	background-image: url(twicelogo.png);
+	background-repeat: repeat; 
+	font-family: fantasy;
+}
+h1 {
+	color: #000c66;
+	border: 2px white;
+}
+header {
+	width: 20px 20px;
+	border: 5px 5px solid;
+	
+}
+
+img {
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+  	width: 90%;	
+}
+.buffer{
+	height: 2rem;
+}
+.btn {
+	color: black;
+	background-color: white;
+	font-weight: 500;
+	border-radius: 300px;
+
+}
+.btn-primary:hover {
+	border-color: red;
+	background-color: white;
+}
+
+li {
+	color: blue;
+	list-style: none;
+	display: inline-block;
+}
+strong {
+	text-align: center;
+	cursor: pointer;
+
+}
+

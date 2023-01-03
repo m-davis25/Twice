@@ -1,0 +1,51 @@
+body,
+html {
+	background-color: lightblue;
+	background-image: url(twicelogo.png);
+	background-repeat: repeat; 
+	font-family: fantasy;
+}
+.container {
+	display: grid;
+	border: 2px;
+	border-color: black;
+	align-items: center;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 5px;
+	float: right;
+}
+.img {
+	max-width: 100%;
+	max-height: 100%;
+	float: left;
+	margin-right: 10px;
+	
+}
+.card-title{
+	font-size: 30px;
+}
+.card {
+	width: 500px
+	height: 300px;
+	background: repeating-linear-gradient(white, white 25px, #9198e5 26px, #9198e5 27px);
+	border: 2px 2px 2px 2px black;
+}
+
+.card-text {
+	position: relative;
+	top: 24px;
+	font-size: 18px;
+	margin: 0 20px;
+	line-height: 27px;
+	font-family: cursive;
+}
+.container-two {
+	display: inline-block;
+	background-color: white;
+	border-color: black;
+}
+header {
+	height:36px;
+	background: linear-gradient(white, white 33px,pink 35px, pink 36px);
+
+}

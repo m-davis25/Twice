@@ -1,0 +1,23 @@
+body,
+html {
+	background-color: lightblue;
+	background-image: url(twicelogo.png);
+	background-repeat: repeat; 
+	font-family: fantasy;
+}
+
+
+.container {
+	padding: 2px white;
+	border: 2px black;
+}
+.p,
+.h1 {
+	padding: 2px;
+	border: 2px black;
+	margin: 2px;
+}
+.group {
+	text-align: center;
+	
+}
